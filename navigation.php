@@ -90,7 +90,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <ul class="nav nav-tabs  notika-menu-wrap menu-it-icon-pro">
-                        <li class="active"><a data-toggle="tab" href="#Home"><i class="material-icons">dashboard</i></i> Home </a>
+                        <li class="active"><a href="home.php"><i class="material-icons">dashboard</i></i> Home </a>
                         </li>
                         <li><a data-toggle="tab" href="#profile"><i class="material-icons">person</i> Citizen Profiling</a>
                         </li>
@@ -134,6 +134,7 @@
             </div>
         </div>
     </div>
+
 
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
 

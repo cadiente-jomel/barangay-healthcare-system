@@ -30,7 +30,7 @@
             if(mysqli_num_rows($result) === 1){
                 $row = mysqli_fetch_assoc($result);
                 if($row['username'] === $username && $row['password'] === $password){
-                    header("location: navigation.php");
+                    header("location: home.php");
                     exit();
                 }
                 else{

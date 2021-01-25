@@ -54,7 +54,7 @@
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
-html, body {font-family: 'Roboto', sans-serif;font-weight:400;}
+html, body {font-family: 'Roboto', sans-serif;font-weight:400;, height: 100%;}
 body {background:#F6F8FA;}
 .floatleft {float:left}
 .floatright {float:right}
@@ -88,6 +88,12 @@ body {}
 .mg-tb-40{
 	margin:40px 0px;
 }
+
+.inner-about {
+    width: 550px;
+    text-align: left;
+    margin-top: 50px;
+}
 .mg-tb-30{
 	margin:30px 0px;
 }
@@ -96,6 +102,12 @@ body {}
 }
 .mg-b-15{
 	margin-bottom:15px;
+}
+.container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
 }
 .mg-t-15{
 	margin-top:15px;
